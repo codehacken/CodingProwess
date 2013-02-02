@@ -1,47 +1,48 @@
-intproject version 1.0                                                                 |
-========================================================================================
-                                                                                       |
-Coders, programmers & NERDS. They are the people who will not need the code in         |
-this git source. But for the rest of us who struggle with programming, the             |
-dreaded technical interview to those "chosen" companies, can be difficult (and         |
-sometimes a crying) challenge. They ask trick questions, language questions,           |
-algorithms and puzzles and top it of with anything they can think under the sun.       |
-Kidding!!! Not anything under the sun, but for us it seems like that. So this is       |
-my small contribution to making, the often challenging experience, a little less       |
-painful.                                                                               |
-                                                                                       |
-The work has a lot of empty files that I hope to fill during my free time. I also      |
-think a bit change in the way the code is implemented, is required.                    |
-                                                                                       |
-Go ahead have a look and let me know your comments and feedback. If you would like     |
-to give any contribution, do let me know.                                              |
-                                                                                       |
-My Email: codehacken@gmail.com                                                         |
-AUTHOR: Ashwinkumar Ganesan.                                                           |
-                                                                                       |
-========================================================================================
-                                                                                       |
-This is a set of codes that are part of typical technical interviews or technical      |
-interview preparations. The code is created such that you can download it and compile  | 
-it, to make it work.                                                                   |
-                                                                                       |
-========================================================================================
-                                                                                       |
-REQUIREMENTS:                                                                          |
-1. gcc 4.2                                                                             |
-                                                                                       |
-========================================================================================
-                                                                                       |
-METHOD:                                                                                |
-                                                                                       |
-cd <main directory where makefile is>                                                  |
-make                                                                                   |
-./intproject                                                                           |
-                                                                                       |
-========================================================================================
-                                                                                       |   
-WARNING:                                                                               |
-Code may cause harm and irrepairable damage to your machine, including crashes and     |
-kernel panic. Kidding!!! But in any case I am not responsible.                         |
-                                                                                       |
-========================================================================================
+==========================================================================================
+| Intproject version 1.0                                                                 |
+==========================================================================================
+|                                                                                        |
+| Coders, programmers & NERDS. They are the people who will not need the code in         |
+| this git source. But for the rest of us who struggle with programming, the             |
+| dreaded technical interview to those "chosen" companies, can be difficult (and         |
+| sometimes a crying) challenge. They ask trick questions, language questions,           |
+| algorithms and puzzles and top it of with anything they can think under the sun.       |
+| Kidding!!! Not anything under the sun, but for us it seems like that. So this is       |
+| my small contribution to making, the often challenging experience, a little less       |
+| painful.                                                                               |
+|                                                                                        |
+| The work has a lot of empty files that I hope to fill during my free time. I also      |
+| think a bit change in the way the code is implemented, is required.                    |
+|                                                                                        |
+| Go ahead have a look and let me know your comments and feedback. If you would like     |
+| to give any contribution, do let me know.                                              |
+|                                                                                        |
+| My Email: codehacken@gmail.com                                                         |
+| AUTHOR: Ashwinkumar Ganesan.                                                           |
+|                                                                                        |
+==========================================================================================
+|                                                                                        |
+| This is a set of codes that are part of typical technical interviews or technical      |
+| interview preparations. The code is created such that you can download it and compile  | 
+| it, to make it work.                                                                   |
+|                                                                                        |
+==========================================================================================
+|                                                                                        |
+| REQUIREMENTS:                                                                          |
+| 1. gcc 4.2                                                                             |
+|                                                                                        |
+==========================================================================================
+|                                                                                        |
+| METHOD:                                                                                |
+|                                                                                        |
+| cd <main directory where makefile is>                                                  |
+| make                                                                                   |
+| ./intproject                                                                           |
+|                                                                                        |
+==========================================================================================
+|                                                                                        |   
+| WARNING:                                                                               |
+| Code may cause harm and irrepairable damage to your machine, including crashes and     |
+| kernel panic. Kidding!!! But in any case I am not responsible.                         |
+|                                                                                        |
+==========================================================================================
