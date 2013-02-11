@@ -154,9 +154,9 @@ void QuickSort(int a[], int start, int end){
 }
 
 // This function implements Introsort method.
-void IntroSort(){
+//void IntroSort(){
 
-}
+//}
 
 // This is the menu for sorting operations.
 void SortingMenu(){

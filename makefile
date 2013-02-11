@@ -1,15 +1,18 @@
 CC=gcc
-CFLAGS=-c -Wall
+INC=include/
+CFLAGS=-Wall
 LDFLAGS=
-SOURCES=src/Main.c src/AVLTree.c src/BinarySearchTree.c src/Graph.c src/KDTree.c src/MatrixOperations.c src/Queue.c src/Stack.c src/AutoBalancedTree.c src/BinaryTree.c src/Hashmap.c src/LinkList.c src/PermComb.c src/Searching.c src/ThreadedBinaryTree.c src/BinaryOperations.c src/Btree.c src/Heap.c src/Main.c src/Problems.c src/Sorting.c
-OBJECTS=$(SOURCES:.cpp=.o)
+SOURCES=src/AVLTree.c src/BinarySearchTree.c src/Graph.c src/KDTree.c src/MatrixOperations.c src/Queue.c src/Stack.c src/AutoBalancedTree.c src/BinaryTree.c src/Hashmap.c src/LinkList.c src/PermComb.c src/Searching.c src/ThreadedBinaryTree.c src/BinaryOperations.c src/Btree.c src/Heap.c src/Problems.c src/Sorting.c
+OBJECTS=$(SOURCES:%.c=%.o)
 EXECUTABLE=intproject
-INCLUDE=include/
+OBJECT_LOC=out/
+MAIN_FILE=src/Main.c
 
-all: $(SOURCES) $(EXECUTABLE)
+%.o : %.c ; $(CC) $(CFLAGS) -I $(INC) -c $? -o $@
 
-$(EXECUTABLE): $(OBJECTS) ; $(CC) $(LDFLAGS) -I $(INCLUDE) $(OBJECTS) -o $@
+install: $(OBJECTS) $(EXECUTABLE)
 
-.cpp.o: ; $(CC) $(CFLAGS) -I $(INCLUDE) $< -c $@
+$(EXECUTABLE): $(OBJECTS) ; $(CC) $(LDFLAGS) -I $(INC) $(OBJECTS) -o $(EXECUTABLE) $(MAIN_FILE)
 
 clean: ; rm src/*.o
+
