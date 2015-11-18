@@ -1,0 +1,23 @@
+NOTES ON PYTHON & PERFORMANCE OPTIMIZATION METHODS
+==================================================
+
+PYTHON
+======
+1. Python's literal declaration {} is more efficient that dict()
+2. Recursion in python is slow as function calls are more expensive.
+3. Python dictionaries are implemented as hash-table where the hash
+   function is a combination of the a hashed-value & (size - 1) of the
+   dict.
+   It uses an open-hashing scheme (find another position in the table
+   during collision) and resizing the table to a larger size and rehashing
+   all elements when the table is filled more than a certain limit.
+
+SORTING
+=======
+1. Quicksort and mergesort have nlogn average time. O(n^2) & O(nlogn)
+2. In general though qsort is used because the average case can be applied and
+   because it is space efficient.
+3. Heapsort - O(nlogn)
+4. Qsort is space efficient because it sorts the array in house with the need for
+   extra space. The swap function is easier than the merge function in mergesort.
+
