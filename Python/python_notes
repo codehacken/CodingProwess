@@ -20,4 +20,52 @@ SORTING
 3. Heapsort - O(nlogn)
 4. Qsort is space efficient because it sorts the array in house with the need for
    extra space. The swap function is easier than the merge function in mergesort.
+5. Heaps are used as a data structure for priority queues. There are max and min
+   heaps. A max heap as a higher value node at each level than its descendants
+   while min heaps have the opposite. Min-Max heaps have a MIN node at each even
+   level of the tree and a MAX node at every odd level.
+   CONDITION:
+   MIN - Heap
+   heap[k] <= heap[2*k+1] and heap[k] <= heap[2*k+2]
+6. CONSIDER: Using heapq in python3 for using heaps.
+
+TREES
+=====
+1. AVL Trees and Red-Black Trees are two ways to auto balance the an unbalanced tree.
+2. Unbalanced trees need to be balanced because they make searching inefficient.
+3. AVL Trees contrain the height of the subtrees where the height difference can be atmost 1.
+3. Splay trees are self-optimized to move frequented nodes to the root of the tree.
+   This is to gain access to frequently used nodes quickly.
+4. Trie is a prefix tree (used for string processing), where the edge contains the character
+   and a combination of tree edges (with the nodes) makeup a string. A good way to store 
+   and retrieve a dictionary of strings.
+   TRIE: Useful in autocompletion of text or strings.
+         Also good for storing a dictionary of information.
+
+LAMBDA FUNCTIONS
+================
+1. Functions that are anonymous.
+2. They are not connected to any names.
+
+MATHEMATICAL OPERATIONS
+=======================
+1. Use Eucleadian method for calculating the GCD.
+   def GCD(a, b):
+       if(b == 0):
+           return a
+       else:
+           GCD(b, a%b)
+
+2. Use sieve method for calculating prime numbers.
+3. def LCM(a, b):
+    return b*a/GCD(a, b)
+4. 
+
+PYTHON CONCURRENCY
+==================
+
+PYTHON EXCEPTION HANDLING
+=========================
+
+
 
