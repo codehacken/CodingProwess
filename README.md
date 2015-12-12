@@ -8,6 +8,8 @@ a range of topics:
 * Operating Systems (Locks, Mutex's, race conditions)
 * Machine Learning (become more common in the future)
 
+Currently, all implementations are in **C** & **Python**.
+
 USAGE
 =====
 The repository of solutions is there to provide guidance on solving problems. Practicing implementation of the methods on your
