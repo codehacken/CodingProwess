@@ -1,8 +1,11 @@
+"""ABCD."""
+
 #!/usr/bin/python
 # Head ends here
 
+
 def findIndex(value, numList):
-    i=0
+    i = 0
     for num in numList:
         if(num == value):
             return i
@@ -14,4 +17,4 @@ def findIndex(value, numList):
 if __name__ == '__main__':
     value = input("Enter the Value: ")
     numList = map(int, raw_input("Enter the Number List: ").strip().split(" "))
-    print findIndex(value, numList)
+    print(findIndex(value, numList))
