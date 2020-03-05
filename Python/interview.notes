@@ -1,0 +1,13 @@
+INTERVIEW NOTES - PROBLEM SOLVING & STRATEGIES
+==============================================
+While solving problems as part of a technical interview following are some steps / guidance that is useful:
+1. Listening to the problem.
+   This requires listening to what the interviewer is saying and making notes about them. One approach is breakdown the problem into 3 buckets:
+   a. Given: What are the inputs in the problem and what are the unique properties of the inputs. For example, is an array of numbers sorted or
+             have numbers in particular order or a specific type.
+   b. Goal: What are the goals that need to be attained. If the problem is one of sorting the array, then the output is a sorted array.
+   c. Assumption: If the problem is vague (or abstract), what are the assumption about the input data that can be made. For example, is an array
+                  of numbers limited in some manner*.
+   * Assumptions and given have difference. Given contains the details provided in the original problem statement while assumptions are conditions
+     specified or assumed once the problem is described (and may be removed later on).
+
